@@ -13,14 +13,20 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 900px;
+    height: 200px;
+    background-color: red;
+}
+
+#middenkant{
+    width: 900px;
+    height: 200px;
+    background-color: white;
 }
 
 #onderkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 900px;
+    height: 200px;
+    background-color: blue;
 }
 

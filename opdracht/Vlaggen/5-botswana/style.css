@@ -13,14 +13,31 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 900px;
+    height: 225px;
+    background-color: lightblue;
+}
+
+#middenbovenkant{
+    width: 900px;
+    height: 10px;
+    background-color: white;
+}
+
+#middenkant{
+    width: 900px;
+    height: 130px;
+    background-color: black;
+}
+
+#middenonderkant{
+    width: 900px;
+    height: 10px;
+    background-color: white;
 }
 
 #onderkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 900px;
+    height: 225px;
+    background-color: lightblue;
 }
-

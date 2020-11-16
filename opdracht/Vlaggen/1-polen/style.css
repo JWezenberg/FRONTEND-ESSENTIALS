@@ -13,14 +13,14 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 900px;
+    height: 300px;
+    background-color: white;
 }
 
 #onderkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 900px;
+    height: 300px;
+    background-color: red;
 }
 
