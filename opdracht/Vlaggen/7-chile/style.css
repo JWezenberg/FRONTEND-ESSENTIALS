@@ -6,29 +6,36 @@
 #container{
     width: 900px;
     height: 600px;
-    background-color: red;
+    background-color: blanchedalmond;
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 50px;
-    height: 275px;
-    background-color: white;
-    transform: translate(425px,0);
-}
-
-#middenkant{
     width: 100%;
-    height: 50px;
-    background-color: white;
+    height: 50%;
+    background-color: blanchedalmond;
 }
 
 #onderkant{
-    width: 50px;
-    height: 275px;
-    background-color: white;
-    transform: translate(425px,0);
+    width: 100%;
+    height: 50%;
+    background-color: red;
 }
+#links{
+    width: 300px;
+    height: 100%;
+    background-color: blue;
+    display: inline-block;
+}
+
+#rechts{
+    width: 600px;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+}
+
+
 
