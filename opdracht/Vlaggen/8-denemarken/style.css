@@ -6,21 +6,29 @@
 #container{
     width: 900px;
     height: 600px;
-    background-color: blanchedalmond;
+    background-color: red;
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 50px;
+    height: 275px;
+    background-color: white;
+    transform: translate(425px,0);
+}
+
+#middenkant{
+    width: 100%;
+    height: 50px;
+    background-color: white;
 }
 
 #onderkant{
-    width: 0px;
-    height: 0px;
-    background-color: chocolate;
+    width: 50px;
+    height: 275px;
+    background-color: white;
+    transform: translate(425px,0);
 }
 

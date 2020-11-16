@@ -13,19 +13,22 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 900px;
-    height: 200px;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
     background-color: red;
 }
 
 #middenkant{
-    width: 900px;
-    height: 200px;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
     background-color: white;
 }
 
 #onderkant{
-    width: 900px;
-    height: 200px;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
     background-color: blue;
 }
