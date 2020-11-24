@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <title class = title></title>
+
 </head>
+
 <body>
-    
+
     <script>
         
         let persoon = {
@@ -18,34 +22,34 @@
             woonplaats : prompt("In welke stad woon je?")
         };
 
-    </script>
+    document.querySelector('title.title').innerHTML     = persoon.voornaam + " " + persoon.achternaam
+    document.querySelector('table > tbody > tr > td.voornaam').innerHTML     = persoon.voornaam
+    document.querySelector('td.achternaam').innerHTML   = persoon.achternaam
+    document.querySelector('td.email').innerHTML        = persoon.email
+    document.querySelector('td.leeftijd').innerHTML     = persoon.leeftijd
+    document.querySelector('td.woonplaats').innerHTML   = persoon.woonplaats
 
-<h1>Persoon.voornaam</h1>
+    </script>
 
 <table>
     <thead>
         <tr>
-            <th><div class = voornaam></div>></th>
-            <th><div class = achternaam></div>></th>
-            <th><div class = email></div>></th>
-            <th><div class = leeftijd></div>></th>
-            <th><div class = woonplaats></div>></th>
+            <th>Voornaam</th>
+            <th>Achternaam</th>
+            <th>E-mail</th>
+            <th>Leeftijd</th>
+            <th>Woonplaats</th>
         </tr>
     </thead>
-
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class = voornaam></td>
+            <td class = achternaam></td>
+            <td class = email></td>
+            <td class = leeftijd></td>
+            <td class = woonplaats></td>
         </tr>
     </tbody>
 </table>
-
-        
-        
-
 </body>
 </html>
