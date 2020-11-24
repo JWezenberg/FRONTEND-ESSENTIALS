@@ -1,6 +1,16 @@
-background
+body{
+    background-color: blanchedalmond;
+}
 
-table, th, td {
+nav{
     border: 2px solid black;
     padding: 5px;
-  }
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
